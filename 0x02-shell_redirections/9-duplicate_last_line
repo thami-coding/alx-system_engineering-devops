@@ -1,7 +1,2 @@
 #!/bin/bash
-duplicate_tail(){
-cat < ./iacta
-echo "$(tail -1 ./iacta)"
-}
-
-duplicate_tail
+tail -1 iacta >> iacta 
