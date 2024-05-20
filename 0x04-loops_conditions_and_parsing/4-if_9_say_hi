@@ -16,19 +16,3 @@ while [ $counter -lt 10 ]; do
     # Increment the counter
     ((counter++))
 done
-
-
-# Initialize a counter
-counter=0
-
-# Using a while loop to display "Best School" 10 times
-while [ $counter -lt 10 ]; do
-    if [ $counter -eq 8 ]; then
-        echo "Best School"
-        echo "Hi"
-    else
-        echo "Best School"
-    fi
-    # Increment the counter
-    ((counter++))
-done
