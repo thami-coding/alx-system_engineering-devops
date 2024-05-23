@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # This line disables a specific shellcheck warning
 # (more info on shellcheck warnings: https://www.shellcheck.net/)
 # We need to disable it because we're using ps without options
