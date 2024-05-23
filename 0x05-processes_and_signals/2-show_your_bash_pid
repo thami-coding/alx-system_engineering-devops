@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# This line disables a specific shellcheck warning
+# (more info on shellcheck warnings: https://www.shellcheck.net/)
+# We need to disable it because we're using ps without options
+# which might trigger a warning for potential better practices.
+# However, in this case, we specifically want to use ps without options.
+# You can remove this line if you don't use shellcheck.
+# shellcheck disable=SC2009
+
+ps | grep bash | grep $$
