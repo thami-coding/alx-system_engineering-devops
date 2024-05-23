@@ -1,9 +1,3 @@
 #!/usr/bin/env bash
-# Find the PID of the running script
-script_pid=$(pgrep -f "4-to_infinity_and_beyond")
-
-# Check if the script is running
-if [ -n "$script_pid" ]; then
-    # Stop the script by sending a SIGTERM signal
-    kill $script_pid
-fi
+# Bash script that stops 4-to_infinity_and_beyond process.
+kill "$(ps -x | pgrep -f beyond)"
