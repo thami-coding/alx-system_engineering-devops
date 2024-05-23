@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Find the PID of the running script
-script_pid=$(pgrep -f "4-to_infinity_and_beyond.sh")
+script_pid=$(pgrep -f "4-to_infinity_and_beyond")
 
 # Check if the script is running
 if [ -n "$script_pid" ]; then
